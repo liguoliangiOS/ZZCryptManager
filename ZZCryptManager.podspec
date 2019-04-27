@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZCryptManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ZZCryptManager.'
 
 
   s.description      = <<-DESC
-                          方便加解密使用的库ZZCryptManager
+                           '方便加解密使用的库ZZCryptManager'
                        DESC
 
   s.homepage         = 'https://github.com/liguoliangiOS/ZZCryptManager'
@@ -22,9 +22,11 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/liguoliangiOS/ZZCryptManager.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.swift_version = '5.0'
+  s.swift_version =  '5.0'
+
   s.source_files = 'ZZCryptManager/Classes/**/*'
-  s.frameworks = 'UIKit', 'CommonCrypto', 'Security'
+  
+#  s.frameworks = 'UIKit', 'Security','CommonCrypto'
 
 
 end
