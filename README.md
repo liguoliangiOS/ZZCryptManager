@@ -20,6 +20,37 @@ it, simply add the following line to your Podfile:
 pod 'ZZCryptManager'
 ```
 
+## Use
+
+```
+///aes加密
+    ZZCryptManager.zz_aesEncrypt("13233258888", key, iv)
+
+///aes解密
+    ZZCryptManager.zz_aesDecrypt("X/A+jXMnFGS81LZjC7XTmw==", key, iv)
+    
+///rsa加密
+    let str = "Rsaencrypt"
+    ZZCryptManager.zz_rsaEncrypt(str, publicKey)
+    
+    encryptData 需要解密的字符串
+    let encryptData = "NlqltiOIfIIl44sKSxaYfgPwficlpDYxUWUc4/wqrlvUYKltZ"
+    ZZCryptManager.zz_rsaDecrypt(encryptData, privateKey)
+    
+    ///签名
+    str 需要签名的数据
+    ZZCryptManager.zz_rsaSignWithSHA1(str, privateKey)
+    
+    
+    ///验签
+    str 需要比对的数据
+    siginStr 签名过的字符串
+    let siginStr = "bO8Ru4+UJceJKPzPmTMH4okKr2Yc5FRuLFzwS9VMnnp"
+    
+    ZZCryptManager.zz_rsaSignVerifyWithSHA1(str, siginStr, publicKey)
+
+```
+
 ## Author
 
 liguoliang
