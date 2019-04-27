@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* ZZCryptManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZCryptManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6C04EFA13DEDCA7303BD8555 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		7422104A4FABAFBA72A3FF01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6C04EFA13DEDCA7303BD8555 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7422104A4FABAFBA72A3FF01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8D5FB7E9C535F171DD935B77 /* Pods-ZZCryptManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCryptManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZZCryptManager_Tests/Pods-ZZCryptManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7E508375A6089BE74C6DBDC /* Pods-ZZCryptManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCryptManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZZCryptManager_Tests/Pods-ZZCryptManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BADDDD016C8AA1F16F63066B /* Pods_ZZCryptManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZCryptManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE74119DAC91F85095D1CF1 /* Pods-ZZCryptManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCryptManager_Example.release.xcconfig"; path = "Target Support Files/Pods-ZZCryptManager_Example/Pods-ZZCryptManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C1B762B0E558A0830371E98A /* ZZCryptManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZCryptManager.podspec; path = ../ZZCryptManager.podspec; sourceTree = "<group>"; };
+		C1B762B0E558A0830371E98A /* ZZCryptManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZCryptManager.podspec; path = ../ZZCryptManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E7135356DA7EF34E135F440D /* Pods_ZZCryptManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZCryptManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				8D5FB7E9C535F171DD935B77 /* Pods-ZZCryptManager_Tests.debug.xcconfig */,
 				A7E508375A6089BE74C6DBDC /* Pods-ZZCryptManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

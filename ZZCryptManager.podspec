@@ -9,34 +9,22 @@
 Pod::Spec.new do |s|
   s.name             = 'ZZCryptManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZZCryptManager.'
+  s.summary          = 'ZZCryptManager.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                          方便加解密使用的库ZZCryptManager
                        DESC
 
-  s.homepage         = 'https://github.com/185226139@qq.com/ZZCryptManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/liguoliangiOS/ZZCryptManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '185226139@qq.com' => 'ligl@chinamobiad.com' }
-  s.source           = { :git => 'https://github.com/185226139@qq.com/ZZCryptManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'liguoliang' => 'ligl@chinamobiad.com' }
+  s.source           = { :git => 'https://github.com/liguoliangiOS/ZZCryptManager.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZZCryptManager/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZZCryptManager' => ['ZZCryptManager/Assets/*.png']
-  # }
+  s.frameworks = 'UIKit', 'CommonCrypto', 'Security'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
 end

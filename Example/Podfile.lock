@@ -1,0 +1,16 @@
+PODS:
+  - ZZCryptManager (0.1.0)
+
+DEPENDENCIES:
+  - ZZCryptManager (from `../`)
+
+EXTERNAL SOURCES:
+  ZZCryptManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZCryptManager: beec4dc1015ba72cc35d2a585fa92db7cc8b6902
+
+PODFILE CHECKSUM: 8134c84f0cfbd4b5d8b57035c5d8965d9983fa32
+
+COCOAPODS: 1.7.0.beta.3

@@ -1,0 +1,6 @@
+framework module ZZCryptManager {
+  umbrella header "ZZCryptManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

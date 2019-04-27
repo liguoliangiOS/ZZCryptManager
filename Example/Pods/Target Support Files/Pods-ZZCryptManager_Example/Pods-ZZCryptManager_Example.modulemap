@@ -1,0 +1,6 @@
+framework module Pods_ZZCryptManager_Example {
+  umbrella header "Pods-ZZCryptManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
