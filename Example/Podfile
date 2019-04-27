@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZZCryptManager_Example' do
+  pod 'ZZCryptManager', :path => '../'
+
+  target 'ZZCryptManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
