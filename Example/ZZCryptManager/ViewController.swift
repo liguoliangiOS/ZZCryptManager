@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import ZZCryptManager
+
+let publicKey = ""
+
+//AES密钥字符串
+private let  AES_KEY = ""
+
+ //AES偏移量
+private let  AES_IV = ""
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+      print(ZZCryptManager.zz_rsaEncrypt("大佬666", publicKey)!)
+        
+      print(ZZCryptManager.zz_aesEncryptStr("老铁没毛病，1@？aB", AES_KEY, AES_IV)!)
+        
     }
 
     override func didReceiveMemoryWarning() {
